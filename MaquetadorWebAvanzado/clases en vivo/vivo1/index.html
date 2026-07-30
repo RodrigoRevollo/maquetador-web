@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Clase 1 (en vivo)</title>
+</head>
+<body>
+    <h1>Tipos de selectores</h1>
+    <p>Los selectores son patrones utilizados para seleccionar elementos HTML que deseas estilizar con CSS. Existen varios tipos de selectores, cada uno con su propia sintaxis y propósito. A continuación, se presentan algunos de los tipos de selectores más comunes:</p>
+    <h2>1. Selector de tipo</h2>
+    <p>Selecciona todos los elementos de un tipo específico. Por ejemplo, para seleccionar todos los párrafos:</p>
+    <pre><code>p {
+    color: blue;
+}</code></pre>
+    <h2>2. Selector de clase</h2>
+    <p>Selecciona todos los elementos que tienen una clase específica. Se denota con un punto (.) seguido del nombre de la clase. Por ejemplo, para seleccionar todos los elementos con la clase "destacado":</p>
+    <pre><code>.destacado {
+    font-weight: bold;
+}</code></pre>
+    <h2>3. Selector de ID</h2>
+    <p>Selecciona un elemento único que tiene un ID específico. Se denota con una almohadilla (#) seguida del nombre del ID. Por ejemplo, para seleccionar el elemento con el ID "header":</p>
+    <pre><code>#header {
+    background-color: gray;
+}</code></pre>
+    <h2>4. Selector de atributo</h2>
+    <p>Selecciona elementos basados en la presencia o valor de un atributo. Por ejemplo, para seleccionar todos los enlaces que tienen el atributo "target" con el valor "_blank":</p>
+    <pre><code>a[target="_blank"] {
+    color: red;
+}</code></pre>
+    <h2>5. Selector de descendiente</h2>
+    <p>Selecciona elementos que son descendientes de un elemento específico. Por ejemplo, para seleccionar todos los párrafos dentro de un div:</p>
+    <pre><code>div p {
+    font-size: 14px;
+}</code></pre>
+    <h2>6. Selector de hijo</h2>
+    <p>Selecciona elementos que son hijos directos de un elemento específico. Por ejemplo, para seleccionar todos los párrafos que son hijos directos de un div:</p>
+    <pre><code>div > p {
+    margin-bottom: 10px;
+}</code></pre>
+    <h2>7. Selector de hermano adyacente</h2>
+    <p>Selecciona un elemento que es el siguiente hermano de otro elemento. Por ejemplo, para seleccionar un párrafo que sigue inmediatamente a un encabezado:</p>
+    <pre><code>h1 + p {
+    color: green;
+}</code></pre>
+    <h2>8. Selector de hermano general</h2>
+    <p>Selecciona todos los elementos hermanos que siguen a otro elemento. Por ejemplo, para seleccionar todos los párrafos que siguen a un encabezado:</p>
+    <pre><code>h1 ~ p {
+    color: orange;
+}</code></pre>
+</body>
+</html>

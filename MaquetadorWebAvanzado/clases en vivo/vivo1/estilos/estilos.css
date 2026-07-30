@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(177, 177, 241);
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: green;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 18px;
+    color: rgb(209, 209, 209);
+}
+body {
+    background-color: rgb(36, 35, 35);
+}
+code {
+    background-color: rgb(230, 244, 255, 0.6);
+    border-radius: 1px;
+    color: black;
+    font-size: 22px;
+}

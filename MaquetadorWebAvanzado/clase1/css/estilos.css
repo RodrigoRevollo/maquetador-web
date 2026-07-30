@@ -1,0 +1,25 @@
+body {  
+    background-color: #a1a3d1;
+    font-family: Arial, sans-serif;
+}
+p {
+    color: #6012de;
+    font-size: 18px;
+}
+
+h2 {
+    color: #0995d1;
+    font-size: 24px;
+}
+
+#parrafo2 {
+    color: #3809d1;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.enlace {
+    color: #11ea40;
+    text-decoration: none;
+    font-size: 18px;
+}
