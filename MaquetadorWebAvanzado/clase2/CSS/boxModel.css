@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=MedievalSharp&display=swap');
+
+*{
+
+}
+body {
+      background-color: #1a1412;
+      color: #2c1d11;
+      font-family: 'Cormorant Garamond', serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    /* Estilo Pergamino */
+    .pergamino {
+      background: radial-gradient(circle, #f9edd0 0%, #e8d19b 100%);
+      width: 100%;
+      max-width: 650px;
+      padding: 45px 35px;
+      border-radius: 8px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.8), inset 0 0 50px rgba(101, 67, 33, 0.4);
+      border: 2px solid #8b5a2b;
+    }
+
+    /* 1. FUENTE ÉPICA EN EL NOMBRE DEL LOCAL */
+    h1.logo {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 2.2rem;
+      color: #3b1e08;
+      text-align: center;
+    }
+
+    /* 2. FUENTE MEDIEVAL EN LOS TÍTULOS Y PRODUCTOS */
+    .seccion-titulo {
+      font-family: 'MedievalSharp', cursive;
+      font-size: 1.6rem;
+      color: #4a2810;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .nombre-producto {
+      font-family: 'MedievalSharp', cursive;
+      font-size: 1.2rem;
+      color: #2c1607;
+    }
+
+    /* 3. FUENTE ELEGANTE PARA LECTURA Y DESCRIPCIONES */
+    .descripcion {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem;
+      color: #4a3728;
+      font-style: italic;
+    }
+
+    .precio {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      color: #7a2b0e;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dotted #a67c52;
+      padding-bottom: 4px;
+    }
